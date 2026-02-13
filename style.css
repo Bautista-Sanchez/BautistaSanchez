@@ -1,0 +1,660 @@
+html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none; 
+    -webkit-user-select: none
+}
+
+
+section {
+    scroll-margin-top: 155px;
+    margin: 0;
+}
+
+/*--------------------------------------------HERO SECTION-----------------------------------*/
+#home {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.849) 15%, rgb(255, 255, 255) 70%), rgba(64, 141, 255, 0.507);
+    margin-top: -155px;
+}
+.presentation {
+    scale: 1.15;
+    margin-top: 300px;
+    margin-bottom: 100px;
+    margin-left: -520px;
+}
+.presentation h1 {
+    word-wrap: break-word;
+    font-family: 'Roboto Condensed';
+    font-weight: bold;
+    font-size: 4rem;
+    color: #f1f1f1;
+    margin-top: -15px;
+    margin-bottom: -5px;
+    text-shadow: 0px 0px 30px;
+    letter-spacing: -2px;
+}
+.presentation h2 {
+    font-family: 'Roboto Condensed';
+    font-weight: 300;
+    font-size: 1.8rem;
+    margin-left: 3px;
+    margin-bottom: 0;
+    color: #383838;
+}
+.presentation p{
+    font-family: 'Roboto Condensed';
+    font-weight: 300;
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-left: 3px;
+    color: #383838;
+}
+.work-me {
+    position: relative;
+    border: none;
+    background-color: #21d882;
+    color: rgb(0, 0, 0);
+    font-family: 'Lato';
+    font-weight: bold;
+    border-radius: 7px;
+    padding: 20px;
+    font-size: 1.1rem;
+    margin-bottom: 8%;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.work-me:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+    box-shadow: 0 0 40px rgba(14, 214, 74, 0.863);
+}
+
+/*----------------------------------------WHAT I DO SECTION--------------------------------------*/
+#what-i-do {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding-top: 70px;
+    background-image: 
+    radial-gradient(at 20% 40%, #79797986 0px, transparent 45%),
+    radial-gradient(at 85% 90%, #ff8c00 0px, transparent 45%),
+    linear-gradient(rgb(255, 255, 255) 70%, rgba(255, 190, 106, 1) 100%);
+    align-items: center;
+}
+
+#what-i-do ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.363);
+    background-color: #cfcfcf13;
+    background-image: 
+    radial-gradient(at 20% 20%, rgba(255, 255, 255, 0.466) , transparent 50%),
+    radial-gradient(at 90% 90%, rgba(255, 255, 255, 0.534) , transparent 80%);
+    backdrop-filter: blur(5px);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 80px 100px;
+    max-width: 90%;
+}
+#what-i-do h1 {
+    margin-left: -105vh;
+    width:max-content;
+    color: #222222;
+}
+#what-i-do h2 {
+    font-family: 'roboto condensed';
+    width: auto;
+    font-size: 3.3rem;
+    color: #353535;
+}
+.first-do-h3 {
+    font-family: 'Playfair Display';
+    font-size: 2.2rem;
+    margin-top: 40px;
+    color:#4a8832;
+}
+.first-do-h4 {
+    font-family: 'Playfair Display';
+    line-height: 3.2rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+    max-width: 65%;
+    margin-top: 40px;
+    color:#111111;
+}
+#second-do {
+    text-align: right;
+}
+#portfolios-text h3 {
+    font-family: 'Playfair Display';
+    font-size: 2.2rem;
+    width: auto;
+    text-align: right;
+    color:#691d1d;
+    margin-top: 40px;
+}
+#portfolios-text h4{
+    font-family: 'Playfair Display';
+    font-weight: 500;
+    line-height: 3.2rem;
+    font-size: 1.5rem;
+    width: auto;
+    text-align: right;
+    color:#111111;
+    margin-top: 40px;
+    margin-left: 40%;
+}
+
+
+
+/*----------------------------------------PROJECTS SECTION--------------------------------------*/
+#projects {
+    padding-top: 20vh;
+    margin: 0;
+    min-height: 95vh;
+    background-image: 
+    radial-gradient(at 20% 60%, #ff9500 0px, transparent 40%),
+    radial-gradient(at 80% 10%, #ff8c00 0px, transparent 45%),
+    linear-gradient(rgba(255, 190, 106, 1) 70%, rgba(24, 102, 247, 1) 100%);
+}
+#projects h1 {
+    margin-left: 24vh;
+    font-family: 'Roboto Condensed';
+    font-size: 6rem;
+    color: rgb(63, 41, 11);
+}
+#projects h2 {
+    margin-left: 22vh;
+    margin-top: 80px;
+    font-family: 'Playfair Display';
+    text-align: left;
+    font-size: 2.7rem;
+    color: rgb(150, 106, 25);
+}
+#projects h3 {
+    margin-left: 24vh;
+    margin-top: 30px;
+    font-family: 'Playfair Display';
+    font-size: 1.6rem;
+    max-width: 70%;
+    align-items: flex-start;
+    color: rgb(78, 56, 16);
+}
+.projects-divisor {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.projects-divisor li {
+    margin: 50px;
+    margin-bottom: 0;
+    border-radius: 30px;
+    box-shadow: 0 0 30px 15px rgba(0, 0, 0, 0.247);
+    flex: 1 1 40%;
+    list-style: none;
+    background-color: rgb(255, 196, 120);
+    min-height: 75vh;
+    max-height: 150vh;
+    max-width: 80vh;
+}
+
+/*----------------------------------------SKILLS SECTION--------------------------------------*/
+
+#skills {
+    padding-top: 20vh;
+    background: linear-gradient(rgb(24, 102, 247) 90%, rgb(46, 46, 46) 100%);
+    min-height: 130vh;
+    padding-bottom: 20vh;
+}
+#skills h1 {
+    margin-left: 24vh;
+    font-family: 'Roboto Condensed';
+    font-size: 6rem;
+    color: rgb(11, 19, 63);
+}
+.skills-subtitle {
+    margin-left: 22vh;
+    margin-top: 80px;
+    font-family: 'Playfair Display';
+    text-align: left;
+    font-size: 2.7rem;
+    color: rgb(19, 54, 129);
+}
+#skills h3 {
+    margin-left: 24vh;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-family: 'Playfair Display';
+    font-size: 1.6rem;
+    max-width: 70%;
+    align-items: flex-start;
+    color: rgb(15, 28, 99);
+}
+.skills-divisor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.skills-divisor #divisor {
+    border-top: 70px solid rgb(18, 70, 167);
+    list-style: none;
+    background-color: rgb(54, 120, 243);
+    margin: 35px;
+    min-height: 65vh;
+    max-width: 77%;
+    border-radius: 25px;
+}
+.skills-divisor #divisor-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 20px 40px;
+}
+
+.skills-divisor #divisor-1 li {
+    background-color: rgba(130, 168, 240, 0.637);
+    backdrop-filter: blur(10px);
+    margin: 37px 10px;
+    min-height: 48vh;
+    min-width: 20vh;
+    max-width: 40vh;
+    border-radius: 15px;
+    transition: all 0.6s ease;
+    z-index: 1;
+    padding: 20px;
+}
+.skills-divisor #divisor-1 li:hover {
+    transform: scale(1.1) rotate(1deg);
+    background-color: rgba(214, 226, 250, 0.637);
+    box-shadow: 0 0 25px 10px rgba(166, 195, 250, 0.527);
+    z-index: 100;
+    .skill-level {
+        color: #21d882;
+        text-shadow: 0 0 20px rgba(0, 0, 0, 0.664);
+    }
+}
+.skill-title {
+    position: absolute;
+    margin-top: 1.7vh;
+    margin-left: 1vh;
+    font-family: 'Roboto Condensed';
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: rgb(13, 46, 105);
+}
+
+.skills-divisor h2 {
+    margin-top: -52px;
+    margin-left: 3vh;
+    font-family:'Franklin Gothic Medium';
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 1.7rem;
+}
+
+.skill-desc {
+    font-family: 'Playfair Display';
+    font-size: 1.2rem;
+    max-width: 85%;
+    margin-top: 40px;
+    margin-left: 10px;
+    color: #000000;
+}
+.skill-level {
+    position: absolute;
+    font-family: 'Roboto Condensed';
+    font-size: 1.7rem;
+    max-width: 85%;
+    top: 85%;
+    margin-left: 10px;
+    font-weight: bold;
+    color: #053172;
+    transition: all 0.3 ease;
+}
+
+.img {
+    object-fit: cover;
+    height: 7vh;
+    margin-top: -0.2vh;
+    margin-left: 82%;
+}
+/*----------------------------------------CONTACT SECTION--------------------------------------*/
+#contact {
+    padding-top: 20px;
+    min-height: 70vh;
+    background: linear-gradient(rgb(46, 46, 46) 60%, rgb(0, 0, 0) 90%);
+}
+#contact h1{
+    color: #dbdbdb;
+}
+.contact-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+.contact-cards li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    margin: 20px;
+    background-color: #202020;
+    border-radius: 15px;
+    box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.486);
+    height: 250px;
+    width: 250px;
+    transition: all 0.3s ease;
+    border: 2px solid rgb(48, 48, 48);
+}
+.contact-cards li:hover {
+    background-color: #313131;
+    box-shadow: 0 0 25px 10px rgba(22, 155, 62, 0.151);
+    border: 2px solid #21d882;
+    .contact-media {
+        color: #21d882;
+    }
+}
+.contact-media {
+    font-family: 'Lato';
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #d8d8d8;
+    margin-top: 20px;
+}
+.media-logo {
+    margin-top: 20px;
+    object-fit: cover;
+    width: 125px;
+}
+#mail-logo {
+    width: 200px;
+    margin-top: -15px;
+}
+.last-message {
+    position: absolute;
+    color: #646464;
+    font-family: 'lato';
+    font-size: 1.3rem;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+
+/*----------------------------------------TEXT ADJUSTMENTS--------------------------------------*/
+#interactable-text-spacing {
+    font-family: 'Roboto Condensed';
+    font-size: 6rem;
+    margin-left: 24vh;
+    transition: all 0.6s ease;
+}
+#interactable-text-spacing:hover {
+    letter-spacing: 10px;
+    color: #e9e9e9;
+    cursor: default;
+    text-align: left;
+}
+#interactable-text {
+    transition: all 0.6s ease;
+}
+#interactable-text:hover {
+    color: #21d882;
+}
+
+h1 {
+    margin-top: 0;
+    cursor: default;
+}
+h2 {
+    cursor: default;
+}
+h3 {
+    cursor: default;
+}
+p {
+    cursor: default;
+}
+
+/*----------------------------------------NAVIGATION BAR--------------------------------------*/
+.navbar {
+    position: sticky;
+    top: 25px;
+    max-width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 1%;
+    margin: 0px auto;
+    border-radius: 10px;
+    background-color: rgba(110, 110, 110, 0.11);
+    backdrop-filter: blur(6px);
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.473);
+    z-index: 1000;
+}
+.nav-links {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0% 5%;
+}
+#nav-link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Lato';
+    font-size: 1.2rem;
+    font-weight: 400;
+    transition: all 0.3s ease;
+}
+#nav-link:hover {
+    color: #21d882;
+    filter: brightness(1.2);
+    text-shadow: 0 0 15px #21d882;
+}
+
+
+/*-------------------MEDIA QUERY MOBILES-------------------------------------------------------*/
+
+@media (max-width: 768px) {
+
+/*----------------------------------------NAVIGATION BAR--------------------------------------*/
+.navbar {
+    max-width: 92%;
+}
+#nav-link {
+    font-size: 1rem;
+}
+
+/*----------------------------------------HERO SECTION--------------------------------------*/
+.presentation {
+    scale: 0.8;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: -30px;
+}
+.presentation h1 {
+    margin-top: -10px;
+    margin-bottom: -5px;
+}
+.presentation h2 {
+    margin-bottom: 0;
+}
+.presentation p{
+    font-size: 1.6rem;
+}   
+
+/*----------------------------------------WHAT I DO SECTION--------------------------------------*/
+#what-i-do {
+    height: auto;
+    padding-top: 0px;
+}
+
+#what-i-do ul {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    padding: 30px 30px;
+    max-width: 90%;
+}
+#what-i-do h1 {
+    margin-left: -130px;
+    font-size: 3rem;
+}
+#what-i-do h2 {
+    font-size: 1.9rem;
+}
+.first-do-h3 {
+    font-size: 1.27rem;
+    margin-top: 10px;
+}
+.first-do-h4 {
+    line-height: 1.2rem;
+    font-size: 0.86rem;
+    max-width: 90%;
+    margin-top: 15px;
+}
+#second-do {
+    margin-top: 20px;
+}
+#portfolios-text h3 {
+    font-size: 1.27rem;
+    margin-top: 10px;
+}
+#portfolios-text h4{
+    line-height: 1.2rem;
+    font-size: 0.86rem;
+    width: auto;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+
+
+/*----------------------------------------PROJECTS SECTION--------------------------------------*/
+#projects {
+    padding-top: 0vh;
+    padding-bottom: 100px;
+    margin: 0;
+    min-height: 95vh;
+}
+#projects h1 {
+    margin-left: 20px;
+    font-size: 3rem;
+}
+#projects h2 {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+#projects h3 {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    max-width: 100%;
+}
+.projects-divisor {
+    margin-top: 0px;
+    gap: 0px;
+}
+.projects-divisor li {
+    margin: 20px 0px;
+    min-height: 450px;
+    max-height: 450px;
+    min-width: 90%;
+    max-width: 90%;
+}
+
+/*----------------------------------------SKILLS SECTION--------------------------------------*/
+
+#skills {
+    padding-top: 0;
+}
+#skills h1 {
+    margin-left: 20px;
+    font-size: 3rem;
+}
+.skills-subtitle {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+#skills h3 {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    max-width: 95%;
+}
+.skills-divisor #divisor {
+    margin: 20px 0px;
+    height: auto;
+    max-width: 90%;
+    border-radius: 25px;
+}
+.skills-divisor #divisor-1 {
+    padding: 20px 10px;
+}
+
+.skills-divisor #divisor-1 li {
+    margin: 20px 10px;
+}
+.skills-divisor #divisor-1 li:hover {
+    transform: scale(1.1) rotate(2deg);
+}
+.skills-divisor h2 {
+    margin-top: -47px;
+    font-size: 1.4rem;
+}
+
+/*----------------------------------------CONTACT SECTION--------------------------------------*/
+#contact h1{
+    margin-left: 20px;
+    font-size: 3rem;
+}
+.contact-cards {
+    margin-top: 30px;
+}
+.contact-cards li {
+    margin: 15px;
+    height: 150px;
+    width: 150px;
+}
+.contact-media {
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+.media-logo {
+    margin-top: 10px;
+    object-fit: cover;
+    width: 85px;
+}
+#mail-logo {
+    width: 130px;
+    margin-top: -15px;
+}
+.last-message {
+    font-size: 1rem;
+}
+}
