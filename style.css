@@ -51,7 +51,7 @@ section {
     font-size: 1.8rem;
     margin-left: 3px;
     margin-bottom: 0;
-    color: #383838;
+    color: #161616;
 }
 .presentation p{
     font-family: 'Roboto Condensed';
@@ -59,7 +59,7 @@ section {
     font-size: 2rem;
     margin-top: 10px;
     margin-left: 3px;
-    color: #383838;
+    color: #161616;
 }
 .work-me {
     position: relative;
@@ -174,7 +174,7 @@ section {
     margin-left: 24vh;
     font-family: 'Roboto Condensed';
     font-size: 6rem;
-    color: rgb(63, 41, 11);
+    color: rgb(39, 24, 2);
 }
 #projects h2 {
     margin-left: 22vh;
@@ -182,7 +182,7 @@ section {
     font-family: 'Playfair Display';
     text-align: left;
     font-size: 2.7rem;
-    color: rgb(150, 106, 25);
+    color: rgb(85, 55, 0);
 }
 #projects h3 {
     margin-left: 24vh;
