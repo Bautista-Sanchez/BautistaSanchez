@@ -9,9 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const mail = "sanchezbautistadev@gmail.com";
         const subject = "Consulta por servicios web";
         const body = "Buenos días, ví tu página web y me gustaría saber más sobre tus servicios";
-        const url = `https://mail.google.com/ma
-        
-        il/?view=cm&fs=1&to=&su=${subject}&body=${body}`;
+        const url = `https://mail.google.com/mail/?view=cm&fs=1&to=${mail}&su=${subject}&body=${body}`;
 
         window.open(url, '_blank');
     });
