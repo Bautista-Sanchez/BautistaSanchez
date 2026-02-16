@@ -433,6 +433,7 @@ section {
     margin-bottom: 30px;
     padding: 0 20px;
     a {
+        background-color: #d6d6d6;
         display: inline-flex;
         align-items: center;
         justify-content: center;
