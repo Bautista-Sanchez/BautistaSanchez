@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Radley:ital@0;1&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="scroll-animations.css">
 </head>
 <body>
         <!------------------------NAVIGATION BAR-------------------------->
@@ -35,7 +36,7 @@
     <!--------------------------WHAT I DO SECTION---------------------------->
     <section id="what-i-do">
         <h1 id="interactable-text-spacing">What I do?</h1>
-        <ul>
+        <ul class="slide-up-1">
             <div>
                 <h2 id="first-do">Landing Page Development</h2>
                 <h3 class="first-do-h3">I build high-performance single-page websites.</h3>
@@ -52,8 +53,8 @@
     <!--------------------------PROJECTS SECTION------------------------------->
     <section id="projects">
         <h1 id="interactable-text-spacing">My projects</h1>
-        <h2>"Impactful design, seamless execution"</h2>
-        <h3>Less noise, more results. I help businesses and individuals establish a professional digital presence through minimalist design and optimized performance.</h3>
+        <h2 class="revelar">"Impactful design, seamless execution"</h2>
+        <h3 class="revelar">Less noise, more results. I help businesses and individuals establish a professional digital presence through minimalist design and optimized performance.</h3>
         <ul class="projects-divisor">
             <li></li>
             <li></li>
@@ -110,6 +111,100 @@
             </ul>
         </ul>
     </section>
+    <!--------------------PRICING SECTION------------------------------------->
+    <section id="pricing">
+        <h1 id="interactable-text-spacing">Pricing</h1>
+        <div class="pricing-container">
+            <div class="pack" id="essential-pack">
+                <h1 id="essential-title">Essential <span>package</span></h1>
+                <h2>Contains:</h2>
+                <div>
+                    <ul>
+                        <li>Sections</li>
+                        <li>Revisions</li>
+                        <li>Speed optimizations</li>
+                        <li>Custom brand integration</li>
+                        <li>Opt-in-form</li>
+                        <li>Hosting setup</li>
+                        <li>Delivery time</li>
+                    </ul>
+                    <ul class="answers">
+                        <li>2</li>
+                        <li>1</li>
+                        <li>&#10004</li>
+                        <li>&#10004</li>
+                        <li>&#10006</li>
+                        <li>&#10006</li>
+                        <li>2 days</li>
+                    </ul>
+                </div>
+                <h3><span class="price">$64 </span><del style="font-weight: 100; font-size: 2rem;">$80</del></h3>
+                <div class="buttons-division">
+                    <a href="https://www.fiverr.com/bautista_sa" class="button-fiverr">Order on Fiverr</a>
+                    <a href="#contact" class="button-contact">Contact me</a>
+                </div>
+            </div>
+            <div class="pack" id="professional-pack">
+                <h1 id="professional-title">Professional <span>package</span></h1>
+                <h2>Contains:</h2>
+                <div>
+                    <ul>
+                        <li>Sections</li>
+                        <li>Revisions</li>
+                        <li>Speed optimizations</li>
+                        <li>Custom brand integration</li>
+                        <li>Opt-in-form</li>
+                        <li>Hosting setup</li>
+                        <li>Delivery time</li>
+                    </ul>
+                    <ul class="answers">
+                        <li>5</li>
+                        <li>3</li>
+                        <li>&#10004</li>
+                        <li>&#10004</li>
+                        <li>&#10004</li>
+                        <li>&#10006</li>
+                        <li>4 days</li>
+                    </ul>
+                </div>
+                <h3>$128 <del style="font-weight: 100; font-size: 2rem;">$160</del></h3>
+                <div class="buttons-division">
+                    <a href="https://www.fiverr.com/bautista_sa" class="button-fiverr">Order on Fiverr</a>
+                    <a href="#contact" class="button-contact">Contact me</a>
+                </div>
+            </div>
+            <div class="pack" id="elite-brand-pack">
+                <h1 id="elite-brand-title">Elite brand <span>package</span></h1>
+                <h2>Contains:</h2>
+                <div>
+                    <ul>
+                        <li>Sections</li>
+                        <li>Revisions</li>
+                        <li>Speed optimizations</li>
+                        <li>Custom brand integration</li>
+                        <li>Opt-in-form</li>
+                        <li>Hosting setup</li>
+                        <li>Delivery time</li>
+                    </ul>
+                    <ul class="answers">
+                        <li>Unlimited</li>
+                        <li>Unlimited</li>
+                        <li>&#10004</li>
+                        <li>&#10004</li>
+                        <li>&#10004</li>
+                        <li>&#10004</li>
+                        <li>6 days</li>
+                    </ul>
+                </div>
+                <h3>$192 <del style="font-weight: 100; font-size: 2rem;">$240</del></h3>
+                <div class="buttons-division">
+                    <a href="https://www.fiverr.com/bautista_sa" class="button-fiverr">Order on Fiverr</a>
+                    <a href="#contact" class="button-contact">Contact me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!--------------------CONTACT SECTION------------------------------------->
     <section id="contact">
         <h1 id="interactable-text-spacing">Contact me</h1>
